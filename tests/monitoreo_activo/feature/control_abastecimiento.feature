@@ -45,7 +45,7 @@ Característica: Alerta automatizada por niveles críticos de efectivo (bajo inv
         Cuando se verifica la capacidad actual
         Entonces debe enviar la alerta de nivel crítico para el "ATM-A" al operador asignado con el siguiente mensaje:
           """
-          Se requieren 32 billetes de 20 dólares y 18 de 10 dólares
+          Se requieren 35 billetes de 20 dólares y 18 de 10 dólares
           """
 
 #     Ejemplos:

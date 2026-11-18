@@ -572,9 +572,9 @@ jQuery.cookie = function(name, value, options) {
     <body>
         <div id="container">
             <div id="header">
-                <div class="time" xmlns="">2 ms</div>
+                <div class="time" xmlns="">0 ms</div>
                 <h1>
-                    control_abastecimiento.feature:Notificar al operador cuando el efectivo del cajero cae por debajo del m&iacute;nimo: <strong><span class="total" xmlns="http://www.w3.org/1999/xhtml">5 total, </span><span class="failed">1 failed, </span><span class="ignored">2 ignored, </span><span class="passed">2 passed</span></strong>
+                    control_abastecimiento.feature:Notificar al operador cuando el efectivo del cajero cae por debajo del m&iacute;nimo: <strong><span class="total" xmlns="http://www.w3.org/1999/xhtml">5 total, </span><span class="passed">5 passed</span></strong>
                 </h1>
                 <div id="treecontrol">
                     <ul>
@@ -591,15 +591,11 @@ jQuery.cookie = function(name, value, options) {
             </div>
             <div id="content">
                 <ul id="tree">
-                    <li xmlns="" class="level top failed open">
-                        <span><em class="time">
-                                <div class="time">2 ms</div>
-                            </em>Alerta automatizada por niveles cr&iacute;ticos de efectivo (bajo inventario).</span>
+                    <li xmlns="" class="level top open">
+                        <span><em class="time"></em>Alerta automatizada por niveles cr&iacute;ticos de efectivo (bajo inventario).</span>
                         <ul>
-                            <li class="level suite failed open">
-                                <span><em class="time">
-                                        <div class="time">2 ms</div>
-                                    </em>Notificar al operador cuando el efectivo del cajero cae por debajo del m&iacute;nimo</span>
+                            <li class="level suite open">
+                                <span><em class="time"></em>Notificar al operador cuando el efectivo del cajero cae por debajo del m&iacute;nimo</span>
                                 <ul>
                                     <li class="level test">
                                         <span><em class="time">
@@ -611,25 +607,20 @@ jQuery.cookie = function(name, value, options) {
                                                 <div class="time">0 ms</div>
                                             </em><em class="status">passed</em>Y el cajero "ATM-A" tiene establecido</span>
                                     </li>
-                                    <li class="level test failed open">
-                                        <span><em class="time">
-                                                <div class="time">2 ms</div>
-                                            </em><em class="status">failed</em>Y actualmente cuenta con 5 billetes de 20 d&oacute;lares y 2 billetes de 10 d&oacute;lares</span>
-                                        <ul>
-                                            <li class="text">
-                                                <span class="stderr">Traceback (most recent call last):<br/>  File "/Users/juanarroyo/PycharmProjects/PythonProject/ATM/.venv/lib/python3.14/site-packages/behave/model.py", line 1991, in run<br/>    match.run(runner.context)<br/>    ~~~~~~~~~^^^^^^^^^^^^^^^^<br/>  File "/Users/juanarroyo/PycharmProjects/PythonProject/ATM/.venv/lib/python3.14/site-packages/behave/matchers.py", line 105, in run<br/>    self.func(context, *args, **kwargs)<br/>    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^<br/>  File "tests/monitoreo_activo/feature/steps/control_abastecimiento.py", line 28, in step_impl<br/>    raise NotImplementedError(u'STEP: Y actualmente cuenta con 5 billetes de 20 d&oacute;lares y 2 billetes de 10 d&oacute;lares')<br/>NotImplementedError: STEP: Y actualmente cuenta con 5 billetes de 20 d&oacute;lares y 2 billetes de 10 d&oacute;lares<br/></span>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="level test ignored open">
+                                    <li class="level test">
                                         <span><em class="time">
                                                 <div class="time">0 ms</div>
-                                            </em><em class="status">ignored</em>Cuando se verifica la capacidad actual</span>
+                                            </em><em class="status">passed</em>Y actualmente cuenta con 5 billetes de 20 d&oacute;lares y 2 billetes de 10 d&oacute;lares</span>
                                     </li>
-                                    <li class="level test ignored open">
+                                    <li class="level test">
                                         <span><em class="time">
                                                 <div class="time">0 ms</div>
-                                            </em><em class="status">ignored</em>Entonces debe enviar la alerta de nivel cr&iacute;tico para el "ATM-A" al operador asignado con el siguiente mensaje:</span>
+                                            </em><em class="status">passed</em>Cuando se verifica la capacidad actual</span>
+                                    </li>
+                                    <li class="level test">
+                                        <span><em class="time">
+                                                <div class="time">0 ms</div>
+                                            </em><em class="status">passed</em>Entonces debe enviar la alerta de nivel cr&iacute;tico para el "ATM-A" al operador asignado con el siguiente mensaje:</span>
                                     </li>
                                 </ul>
                             </li>
@@ -639,7 +630,7 @@ jQuery.cookie = function(name, value, options) {
             </div>
         </div>
         <div id="footer">
-            <p>Generated by PyCharm on 11/13/26, 12:38 PM</p>
+            <p>Generated by PyCharm on 11/18/26, 8:45 AM</p>
         </div>
     </body>
 </html>
